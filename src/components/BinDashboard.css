@@ -1,0 +1,27 @@
+.dashboard {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboard h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.dashboard-table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.dashboard-table th {
+    background-color: #4CAF50;
+    color: white;
+}
