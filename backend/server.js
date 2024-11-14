@@ -6,16 +6,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// process.on('unhandledRejection', (reason, promise) => {
-//     console.error('Unhandled Rejection at:', promise, 'reason:', reason);
-//   });
-  
-//   process.on('uncaughtException', (err) => {
-//     console.error('Uncaught Exception:', err);
-//     process.exit(1); // Optional: To exit after uncaught exception
-//   });
-  
-
 // Database connection
 const db = mysql.createConnection({
     host: 'localhost',
